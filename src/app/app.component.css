@@ -1,0 +1,48 @@
+.example-card {
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    margin-block-start: 5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Monaco;
+    background-color: #9d6969;
+    color: #fff;
+    
+  }
+  mat-card-header{
+    margin: auto;
+  }
+  h1{
+    font-style: oblique;
+  }
+  span.boxed {
+    margin: 10px;
+    padding: 14px;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: yellowgreen;
+    color: white;
+    
+  }
+ 
+  ::ng-deep .mat-mdc-snack-bar-container {
+    &.custom-style {
+      --mdc-snackbar-container-color:#2E8B57;
+      --mat-mdc-snack-bar-button-color: #fff;
+      --mdc-snackbar-supporting-text-color: #fff;
+    }
+    &.failed-style {
+        --mdc-snackbar-container-color:#FF2C2C;
+        --mat-mdc-snack-bar-button-color: #fff;
+        --mdc-snackbar-supporting-text-color: #fff;
+      }
+  }
+  ::ng-deep .mat-mdc-simple-snack-bar{
+    margin:3px;
+  }
+  ::ng-deep .mat-mdc-snack-bar-container {
+    margin: 30px !important;
+  }
+  
